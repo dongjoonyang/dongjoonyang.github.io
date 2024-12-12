@@ -130,14 +130,14 @@
 		let imgElem;
 		for (let i = 0; i < sceneInfo[0].values.videoImageCount; i++) {
 			imgElem = new Image();
-			imgElem.src = `./video/001/IMG_${6726 + i}.JPG`;
+			// imgElem.src = `./video/001/IMG_${1000 + i}.JPG`;
 			sceneInfo[0].objs.videoImages.push(imgElem);
 		}
 
 		let imgElem2;
 		for (let i = 0; i < sceneInfo[2].values.videoImageCount; i++) {
 			imgElem2 = new Image();
-			imgElem2.src = `./video/002/IMG_${7027 + i}.JPG`;
+			// imgElem2.src = `./video/002/IMG_${1000 + i}.JPG`;
 			sceneInfo[2].objs.videoImages.push(imgElem2);
 		}
 
@@ -447,20 +447,20 @@
 						objs.canvas.style.marginTop = 0;
 					}
 
-					if (scrollRatio > values.canvas_scale[2].end
-						&& values.canvas_scale[2].end > 0) {
-						objs.canvas.classList.remove('sticky');
-						objs.canvas.style.marginTop = `${scrollHeight * 0.4}px`;
+					// if (scrollRatio > values.canvas_scale[2].end
+					// 	&& values.canvas_scale[2].end > 0) {
+					// 	objs.canvas.classList.remove('sticky');
+					// 	objs.canvas.style.marginTop = `${scrollHeight * 0.4}px`;
 
-						values.canvasCaption_opacity[2].start = values.canvas_scale[2].end;
-						values.canvasCaption_opacity[2].end = values.canvasCaption_opacity[2].start + 0.1;
-						values.canvasCaption_translateY[2].start = values.canvasCaption_opacity[2].start;
-						values.canvasCaption_translateY[2].end = values.canvasCaption_opacity[2].end;
-						objs.canvasCaption.style.opacity = calcValues(values.canvasCaption_opacity, currentYOffset);
-						objs.canvasCaption.style.transform = `translate3d(0, ${calcValues(values.canvasCaption_translateY, currentYOffset)}%, 0)`;
-					} else {
-						objs.canvasCaption.style.opacity = values.canvasCaption_opacity[0];
-					}
+					// 	values.canvasCaption_opacity[2].start = values.canvas_scale[2].end;
+					// 	values.canvasCaption_opacity[2].end = values.canvasCaption_opacity[2].start + 0.1;
+					// 	values.canvasCaption_translateY[2].start = values.canvasCaption_opacity[2].start;
+					// 	values.canvasCaption_translateY[2].end = values.canvasCaption_opacity[2].end;
+					// 	objs.canvasCaption.style.opacity = calcValues(values.canvasCaption_opacity, currentYOffset);
+					// 	objs.canvasCaption.style.transform = `translate3d(0, ${calcValues(values.canvasCaption_translateY, currentYOffset)}%, 0)`;
+					// } else {
+					// 	objs.canvasCaption.style.opacity = values.canvasCaption_opacity[0];
+					// }
 				}
 
 				break;
