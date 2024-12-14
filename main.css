@@ -140,14 +140,14 @@ body.before-load {
 }
 .description .img-profile {
 	display: flex;
-	gap: 80px;
+	gap: 40px;
 }
 .description .img-profile .char{
 	display: flex;
 	flex-direction: column;
 }
 .description .img-profile .char-about {
-	font-size: 50px;
+	font-size: 2.3vw;
 	font-weight: bold;
 	margin-bottom: 50px;
 	color: #555;
@@ -177,12 +177,12 @@ body.before-load {
 	background: #e0e0e0;
 }
 #scroll-section-2 .b {
-	top: 10%;
+	top: 30%;
 	left: 40%;
 	color: #e0e0e0;
 }
 #scroll-section-2 .c {
-	top: 15%;
+	top: 30%;
 	left: 45%;
 	color: #e0e0e0;
 }
@@ -197,7 +197,8 @@ body.before-load {
 	color: rgb(29, 29, 31);
 }
 .min-message-text-sub {
-	font-size: 1.8vw;
+	font-size: 1.2vw;
+	line-height: 1.6vw;
 	margin-top: 2vw;
 	margin-bottom: 2vw;
 }
@@ -210,9 +211,9 @@ body.before-load {
 }
 .projects-title {
 	text-align: center;
-	margin-top: 5vw;
 	font-size: 50px;
 	color: #333;
+	font-weight: bold;
 }
 .projects {
 	display: flex;
@@ -221,10 +222,11 @@ body.before-load {
 }
 .projects .item {
 	width: 14vw;
-	height: 400px;
+	height: 27vw;
 	overflow: hidden;
 	border: 1px solid #eee;
 	border-radius: 5px;
+	background-color: #fff;
 }
 .projects .item img {
 	width: 100%;
@@ -325,6 +327,18 @@ body.before-load {
 .normal-content {
 	margin-bottom: 10rem;
 }
+.small-text {
+	font-size: 0.9vw;
+}
+.hobby {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 6vw;
+}
+.hobby-img {
+	width:  30%;
+}
 
 @media (min-width: 1024px) {
 	#scroll-section-0 h1 {
@@ -352,7 +366,7 @@ body.before-load {
 		width: 20%;
 	}
 	#scroll-section-2 .b {
-		top: 20%;
+		top: 30%;
 		left: 53%;
 	}
 	#scroll-section-2 .c {
@@ -362,7 +376,6 @@ body.before-load {
 		width: 1000px;
 		padding: 0;
 		font-size: 4vw;
-		margin-bottom: 6vw;
 	}
 	.canvas-caption {
 		margin-top: -8rem;
