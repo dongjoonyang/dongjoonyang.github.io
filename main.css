@@ -115,6 +115,9 @@ body.before-load {
 	text-align: center;
 	line-height: 1.2;
 }
+.text_white {
+	color: #e0e0e0;
+}
 .main-message small {
 	display: block;
 	margin-bottom: 0.5em;
@@ -135,6 +138,33 @@ body.before-load {
 	font-size: 3rem;
 	color: rgb(29, 29, 31);
 }
+.description .img-profile {
+	display: flex;
+	gap: 80px;
+}
+.description .img-profile .char{
+	display: flex;
+	flex-direction: column;
+}
+.description .img-profile .char-about {
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	color: #555;
+}
+.description .img-profile .char-text{
+	margin-bottom: 20px;
+}
+.description .img-profile .char-info{
+	font-size: 18px;
+	line-height: 28px;
+}
+.char-sns {
+	margin-top: auto;
+	font-size: 14px;
+	line-height: 26px;
+}
+
 
 .sticky-elem.desc-message {
 	width: 45%;
@@ -144,15 +174,17 @@ body.before-load {
 .pin {
 	width: 1px;
 	height: 100px;
-	background: rgb(29, 29, 31);
+	background: #e0e0e0;
 }
 #scroll-section-2 .b {
 	top: 10%;
 	left: 40%;
+	color: #e0e0e0;
 }
 #scroll-section-2 .c {
 	top: 15%;
 	left: 45%;
+	color: #e0e0e0;
 }
 .mid-message {
 	max-width: 1000px;
@@ -164,24 +196,47 @@ body.before-load {
 .mid-message strong {
 	color: rgb(29, 29, 31);
 }
-.mid-message .min-message-text {
+.min-message-text-sub {
 	font-size: 1.8vw;
 	margin-top: 2vw;
+	margin-bottom: 2vw;
 }
 .canvas-caption {
-	max-width: 1000px;
+	max-width: 1600px;
 	margin: -24rem auto 0;
 	padding: 0 1rem;
 	font-size: 1.2rem;
 	color: #888;
 }
+.projects-title {
+	text-align: center;
+	margin-top: 5vw;
+	font-size: 50px;
+	color: #333;
+}
+.projects {
+	display: flex;
+	gap: 3vw;
+	margin-top: 3vw;
+}
+.projects .item {
+	width: 14vw;
+	height: 400px;
+	overflow: hidden;
+	border: 1px solid #eee;
+	border-radius: 5px;
+}
+.projects .item img {
+	width: 100%;
+}
 .footer {
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	height: 7rem;
+	padding: 0 2vw;
 	color: white;
 	background: #222;
+	font-size: 16px;
 }
 .sticky-elem {
 	display: none;
@@ -292,6 +347,8 @@ body.before-load {
 		font-size: 1.5vw;
 	}
 	.sticky-elem.desc-message {
+		font-size: 22px;
+		font-weight: 400;
 		width: 20%;
 	}
 	#scroll-section-2 .b {
@@ -305,6 +362,7 @@ body.before-load {
 		width: 1000px;
 		padding: 0;
 		font-size: 4vw;
+		margin-bottom: 6vw;
 	}
 	.canvas-caption {
 		margin-top: -8rem;
