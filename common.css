@@ -22,7 +22,7 @@ body.before-load {overflow: hidden;}
 .local-nav .local-nav-links .sns-box a .ico_youtube {width: 30px;height: 30px;}
 
 /* footer */
-.footer {display: flex;align-items: center;height: 7rem;padding: 0 2vw;color: white;background: #222;font-size: 16px;}
+.footer {display: flex;align-items: center;height: 7rem;padding: 0 2vw;color: white;background: #222;font-size: 16px;margin-top: 3vw;}
 
 @media (min-width: 1024px) {
 
