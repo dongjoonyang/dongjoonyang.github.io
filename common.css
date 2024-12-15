@@ -1,0 +1,29 @@
+html {font-family: 'Noto Sans KR', sans-serif;font-size: 14px;}
+body {overflow-x: hidden;color: rgb(29, 29, 31);letter-spacing: -0.05em;background: white;}
+p {line-height: 1.6;}
+a {color: rgb(29, 29, 31);text-decoration: none;}
+body.before-load {overflow: hidden;}
+.container {overflow-x: hidden;}
+
+/* Header */
+.local-nav {position: fixed;top: 0;left: 0;z-index: 11;width: 100%;height: 52px;padding: 0 1rem;border-bottom: 1px solid #ddd;}
+.local-nav-sticky .local-nav {background: rgba(255, 255, 255, 0.1);-webkit-backdrop-filter: saturate(180%) blur(15px);-moz-backdrop-filter: saturate(180%) blur(15px);-o-backdrop-filter: saturate(180%) blur(15px);backdrop-filter: saturate(180%) blur(15px);}
+.local-nav .local-nav-links {display: flex;align-items: center;max-width: 1000px;height: 100%;margin: 0 auto;}
+.local-nav .local-nav-links .sns-box {display: flex;gap: 1vw;}
+.local-nav .local-nav-links .product-name {font-size: 1.4rem;font-weight: bold;}
+.local-nav .local-nav-links > a {font-size: 0.8rem;}
+.local-nav .local-nav-links > ul {display: flex;margin-right: auto;margin-left: 5vw;}
+.local-nav .local-nav-links ul li{height: 52px;line-height: 50px;width: 100px;text-align: center;}
+.local-nav .local-nav-links ul li > a{display: inline-block;width: 100%;height: 100%;font-size: 1vw;font-weight: 400;color: #333;}
+.local-nav .local-nav-links ul li a:hover{color: blue;font-weight: bold;}
+.local-nav .local-nav-links ul li a.on {color: blue;font-weight: bold;}
+.local-nav .local-nav-links .sns-box > a {display: flex;align-items: center;}
+.local-nav .local-nav-links .sns-box a .ico-instagram{width: 33px;height: 33px;}
+.local-nav .local-nav-links .sns-box a .ico_youtube {width: 30px;height: 30px;}
+
+/* footer */
+.footer {display: flex;align-items: center;height: 7rem;padding: 0 2vw;color: white;background: #222;font-size: 16px;}
+
+@media (min-width: 1024px) {
+
+}
