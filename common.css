@@ -14,7 +14,7 @@ body.before-load {overflow: hidden;}
 .local-nav .local-nav-links > a {font-size: 0.8rem;}
 .local-nav .local-nav-links > ul {display: flex;margin-right: auto;margin-left: 5vw;}
 .local-nav .local-nav-links ul li{height: 52px;line-height: 50px;width: 100px;text-align: center;}
-.local-nav .local-nav-links ul li > a{display: inline-block;width: 100%;height: 100%;font-size: 1vw;font-weight: 400;color: #333;}
+.local-nav .local-nav-links ul li > a{display: inline-block;width: 100%;height: 100%;font-size: 1.1rem;font-weight: 400;color: #333;}
 .local-nav .local-nav-links ul li a:hover{color: blue;font-weight: bold;}
 .local-nav .local-nav-links ul li a.on {color: blue;font-weight: bold;}
 .local-nav .local-nav-links .sns-box > a {display: flex;align-items: center;}
